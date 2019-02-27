@@ -16,7 +16,7 @@ Op deze versie heeft Rodi Cornelisse feedback gegeven. De feedback liep uiteen v
 * Waarom zie je pas de play button als je over het de afbeelding hovert?
 * De witten vlakken met informatie over het nummer zijn niet over al gelijk, kijk hier nog even naar.
 
-terug te vinden bij deze link:
+Terug te vinden bij deze link:
 [Link naar feedback Rodi Cornelisse](https://github.com/JEDoedens/Opdracht1/issues?q=is%3Aissue+is%3Aclosed)
 
 
