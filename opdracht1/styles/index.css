@@ -1,0 +1,236 @@
+/* algemene zaken */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  color: black;
+  font-size: 1em;
+}
+
+em {
+  font-style: normal;
+}
+
+fieldset {
+  border: 0;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+  background-repeat:no-repeat;
+}
+
+/* radiobuttons niet zichtbaar */
+input {
+  visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+}
+
+form button{
+  position: absolute;
+  right: -999em;
+}
+
+svg#fsleutel{
+  width: 1.75rem;
+}
+
+svg#fsleutel path{
+  fill: white;
+}
+
+svg#playbutton {
+  width: 2rem;
+  display: block;
+}
+
+article:hover svg#playbutton {
+  width: 2.5rem;
+}
+
+svg#playbutton path{
+fill: #fff;
+stroke: #fff;
+stroke-miterlimit: 10;
+}
+
+svg#liedtijd {
+  width: 1em;
+}
+
+svg#liedtijd g circle{
+  fill: none;
+  stroke: #454444;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+svg#liedtijd g polyline{
+  fill: none;
+  stroke: #454444;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  padding: 0.5em;
+  font-family: 'Lora', serif;
+  color: white;
+  font-weight: 50;
+}
+
+body > header{
+  display: flex;
+  justify-content: flex-start;
+  background-image: url("../images/album2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: -1.75em;
+  align-items: center;
+  padding: 1em;
+}
+
+h2{
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  padding: 1em;
+}
+
+main section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div{
+  width: 31.2%;
+  margin: 0.75em;
+  box-shadow: 0 10px 30px 0 rgba(35, 31, 32, .1);
+}
+
+div:hover {
+  width: 31.2%;
+  padding: 0.25em;
+  margin: 0.5em;
+}
+
+div:hover header{
+  padding: 0 0.25em;
+  margin: 0 -0.25em;
+  background-size: 145%;
+}
+
+main article header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16em;
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+main article.track1 header {
+  background-image: url("../images/album1.jpg");
+}
+
+main article.track2 header {
+  background-image: url("../images/album2.jpg");
+}
+
+main article.track3 header {
+  background-image: url("../images/album3.jpg");
+}
+
+main article.track4 header {
+  background-image: url("../images/album4.jpg");
+}
+
+main article.track5 header {
+  background-image: url("../images/album5.jpg");
+}
+
+main article.track6 header {
+  background-image: url("../images/album6.jpg");
+}
+
+main article header button{
+  position: absolute;
+}
+
+main article footer{
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em 0.5em 0 0.5em;
+  height: 7em;
+}
+
+main article footer ul{
+  width: 50%;
+}
+
+main article footer ul li{
+  padding: 0.1em;
+}
+
+main article footer ul:first-of-type li:nth-child(odd){
+  font-size: 0.75em;
+  font-weight: bolder;
+}
+
+main article footer ul:first-of-type li:nth-child(3){
+  margin-top: 0.75em;
+}
+
+main article footer ul:last-of-type li:nth-child(1){
+  font-size: 0.75em;
+  font-weight: bolder;
+}
+
+main article footer ul:nth-of-type(2) li:nth-of-type(2){
+  display: flex;
+  align-items: center;
+  padding-top: 0.2em;
+}
+
+main > footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #LastButton {
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em 7em;
+  color: white;
+  margin: 1em;
+  font-size: 0.75em;
+}
