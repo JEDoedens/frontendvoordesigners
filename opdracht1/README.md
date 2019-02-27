@@ -17,11 +17,11 @@ Op deze versie heeft Rodi Cornelisse feedback gegeven. De feedback liep uiteen v
 * De witten vlakken met informatie over het nummer zijn niet over al gelijk, kijk hier nog even naar.
 
 terug te vinden bij deze link:
-https://github.com/JEDoedens/Opdracht1/issues?q=is%3Aissue+is%3Aclosed
+[Link naar feedback Rodi Cornelisse](https://github.com/JEDoedens/Opdracht1/issues?q=is%3Aissue+is%3Aclosed)
 
 
 ## 2e versie
-Bij versie 2 zijn de isseus opgelost. Vooral wat vormgeving is verbeterd. Daarnaast is de drag and drop verbeterd. Wanneer een artikel op een ander artikel wordt gesleept verwisselen ze van plek. Met java sript wordt onthouden uit welke div het artikel is gesleept en het artikel waar die op wordt gesleept wordt dat artikel in de onthouden div geplaatst.
+Bij versie 2 zijn de isseus opgelost. Vooral wat vormgeving is verbeterd. Daarnaast is de drag and drop verbeterd. Wanneer een artikel op een ander artikel wordt gesleept verwisselen ze van plek. Met java sript wordt onthouden uit welke div het artikel is gesleept en het artikel waar die op wordt gesleept wordt dat artikel in de onthouden div geplaatst. Helaas kan een artikel nog dieper in de nesting van de div komen daardoor een stukje list omwisselt met een heel artikel. Dit krijg ik niet opgelost
 
 Je kan ook een link plaatsen naar de bron code van de demo:
 [Link voor opdracht 1,2 en 3](https://jedoedens.github.io/frontendvoordesigners/)
