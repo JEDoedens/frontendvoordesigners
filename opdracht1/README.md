@@ -1,16 +1,14 @@
 # frontend voor designers - opdracht 1
-Hier beschrijf je de opdracht, wat je hebt gemaakt en hoe je je ontwerp door verschillende versies te testen hebt verbeterd. Bij iedere test voeg je een link toe naar de betreffende demo.
+Bij deze opdracht heb ik een drag and drop muzieksite gemaakt. Daarbij heb ik getracht het drag and drop systeem zo goed mogelijk te maken. Daarnaast heb ik het reeds vormgegeven in een hippie versie van klassieke muziek.
 
-Bijvoorbeel bij de demo van versie in kun je zo een link maken, zodat iedereen de demo zelf kan uitproberen:
+## 1e versie
+Bij mijn eerste versie had ik al een redelijke vormgeving en nog veel problemen met het drag and drop. De nummers konden wel gedragt worden maar het verdween vervolgens zodra je het op een andere sleepte. Daarnaast kon het in een footer of list item van een artikel komen.
 
-[Demo 1 voor opdracht 1](https://koopreynders.github.io/frontendvoordesigners/opdracht1/v1/)
+## Feedback
+Op deze versie heeft Rodi Cornelisse feedback gegeven. De feedback liep uiteen van html naar javascript en css. De feedback is terug te vinden bij de closed isseus.
 
-[Demo 2 voor opdracht 1](https://koopreynders.github.io/frontendvoordesigners/opdracht1/v2/)
-
-[Demo 3 voor opdracht 1](https://koopreynders.github.io/frontendvoordesigners/opdracht1/v3/)
-
-[Demo 4 voor opdracht 1](https://koopreynders.github.io/frontendvoordesigners/opdracht1/v4/)
+## 2e versie
+Bij versie 2 zijn de isseus opgelost. Vooral wat vormgeving is verbeterd. Daarnaast is de drag and drop verbeterd. Wanneer een artikel op een ander artikel wordt gesleept verwisselen ze van plek. Met java sript wordt onthouden uit welke div het artikel is gesleept en het artikel waar die op wordt gesleept wordt dat artikel in de onthouden div geplaatst.
 
 Je kan ook een link plaatsen naar de bron code van de demo:
-
-[Code demo 1 voor opdracht 1](https://github.com/KoopReynders/frontendvoordesigners/blob/master/opdracht1/v1/)
+[Code demo 1 voor opdracht 1](https://jedoedens.github.io/frontendvoordesigners/)
