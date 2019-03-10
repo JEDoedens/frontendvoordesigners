@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lora', serif;
 }
 
 ul {
@@ -22,6 +23,10 @@ em {
   font-style: normal;
 }
 
+button{
+  border: none;
+}
+
 fieldset {
   border: 0;
 }
@@ -33,7 +38,96 @@ input {
   overflow: hidden;
 }
 
-form button{
+form button {
   position: absolute;
   right: -999em;
+}
+
+/* ----------------------------------Deze pagina specefieke styling---------------------------------------- */
+header {
+  height: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/stofachtig.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: -20em;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 1em 4em;
+  color: white;
+  border-radius: 0.5em;
+}
+
+main{
+  margin-top: 2em;
+    overflow: scroll;
+}
+
+main ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+main ul li {
+  margin: 0.1em;
+}
+
+main ul li:first-of-type{
+  width: 2em;
+  height: 2em;
+}
+
+main ul li:last-of-type{
+  width: 2em;
+  height: 2em;
+}
+
+img {
+  width: 32em;
+  border-radius: 0.5em;
+}
+
+img:hover {
+  width: 36em;
+}
+main ul li article{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 24em;
+  box-shadow: 0 10px 30px 0 rgba(35, 31, 32, .1);
+  height: 20em;
+}
+
+main ul li article h2{
+  font-family: 'Poppins', sans-serif;
+  margin: 2em 2em 0em 2em;
+}
+
+main ul li article p{
+  font-family: 'Raleway', sans-serif;
+  margin: 1em 2em;
+}
+
+svg {
+  width: 90%;
+}
+
+svg.pijl polyline {
+  fill: none;
+  stroke: #e52d18;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 30px
+}
+
+svg#pijlrechts{
+    transform: rotate(180deg);
 }
