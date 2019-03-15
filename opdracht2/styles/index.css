@@ -64,29 +64,18 @@ h1 {
 
 main{
   margin-top: 2em;
-    overflow: scroll;
 }
 
 main ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
   flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 main ul li {
   margin: 0.1em;
-}
-
-main ul li:first-of-type{
-  width: 2em;
-  height: 2em;
-}
-
-main ul li:last-of-type{
-  width: 2em;
-  height: 2em;
 }
 
 img {
@@ -97,6 +86,12 @@ img {
 img:hover {
   width: 36em;
 }
+
+article:hover {
+  height: 24em;
+  width: 28em;
+}
+
 main ul li article{
   display: flex;
   flex-direction: column;
@@ -130,4 +125,18 @@ svg.pijl polyline {
 
 svg#pijlrechts{
     transform: rotate(180deg);
+}
+main ul li button{
+  position: absolute;
+  width: 4em;
+  top: 70%;
+  background-color: transparent;
+}
+
+main ul li button.custom-owl-prev{
+  right: 2%;
+}
+
+main ul li button.custom-owl-next{
+  left: 2%;
 }
