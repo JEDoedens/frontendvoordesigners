@@ -1,0 +1,68 @@
+/* algemene zaken */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  color: black;
+  font-size: 1em;
+}
+
+em {
+  font-style: normal;
+}
+
+button{
+  border: none;
+}
+
+fieldset {
+  border: 0;
+}
+
+/* radiobuttons niet zichtbaar */
+input {
+  visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+}
+
+form button {
+  position: absolute;
+  right: -999em;
+}
+
+/* ----------------------------------Deze pagina specefieke styling---------------------------------------- */
+
+.slide-viewer {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+  }
+
+  .slide:first-child {
+    display: block;}
