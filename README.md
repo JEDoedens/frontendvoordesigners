@@ -8,6 +8,9 @@ Het vak bestaat uit 3 opdrachten:
 
 1. [Opdracht 1](opdracht1/)
 2. [Opdracht 2](opdracht2/)
+Getragd een carousel te maken met vakantie foto's. Ook zijn er opgeloste comments te vinden bij de volgende link: https://github.com/JEDoedens/frontendvoordesigners/issues?q=is%3Aissue+is%3Aclosed
+Tussen de foto's door zijn stukjes tekst zodat je echt de vakantie met beeld en tekst doorloopt. De opdracht is helaas niet helemaal gelukt ik heb er wel veel mee zitten pielen maar had het simpeler moeten houden. 
+
 3. [Opdracht 3](opdracht3/)
 
 

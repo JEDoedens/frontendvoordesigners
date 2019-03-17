@@ -9,6 +9,13 @@ function sayHello() {
 
 sayHello();
 
+// Idee hoe het zou moeten werken:
+// Er passen twee foto's(of tekstjes per keer op het beeldscherm) de carousel zal daarom per twee moeten werken.ajax
+// Dus de 1e en 2e foto zouden telkens laten zien moeten worden (n+1 en n+2)
+// De knop naar links zal twee foto's naar achteren selecteren en de knop naar rechts de eerste twee en vervolgens de volgende twee
+// Dezelfde functie zal aangeroepen kunnen worden met de linker en rechter muisknop
+// Daarnaast kan er nog gekeken worden naar een transitie of iets om het mooier te maken.
+//
 
 // -----------------Voorbeeld slider!---------------------
 //
